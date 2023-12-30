@@ -1,0 +1,349 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&family=Playpen+Sans:wght@100&display=swap');
+
+
+/* font-family: 'AR One Sans', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Playpen Sans', cursive; */
+body {
+    background: rgb(44, 43, 43);
+}
+
+/* nav start here  */
+.nav {
+    width: 100%;
+    margin-top: 30px;
+    height: 200px;
+    
+}
+
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.logo h2 {
+    margin-left: 100px;
+    font-size: 60px;
+    margin-top: -10px;
+    color: white;
+    width: 90px;
+    background: linear-gradient(to left,
+            rgb(62, 230, 62),
+            rgb(249, 129, 129),
+            rgb(219, 219, 138),
+            rgb(155, 155, 255),
+            #E50072);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position:static;
+}
+
+.navber {
+    width: 60%;
+    display: inline-block;
+
+}
+
+.navber ul li a {
+    float: left;
+    margin-left: 60px;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+
+.navber ul li a:hover {
+    color: aqua;
+    font-size: 25px;
+}
+
+/* nav end here  */
+/* profile section start here  */
+.profile {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.bio {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    margin-top: 50px;
+    color: white
+}
+
+.bio h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-size: 50px; */
+    width: 500px;
+
+    background: linear-gradient(to left,
+            rgb(62, 230, 62),
+            rgb(249, 129, 129),
+            rgb(219, 219, 138),
+            rgb(155, 155, 255),
+            #E50072,
+            rgb(227, 129, 129));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.bio p {
+    margin-bottom: 40px;
+}
+
+.bio a {
+    background: red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 8px 20px;
+    color: white;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+}
+
+.profile-img img {
+    height: 320px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+/* profile section end here  */
+/* my service start here  */
+.Service {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(247, 218, 218)
+}
+
+.Service h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* my service end here  */
+/* my work section start here  */
+.work {
+    width: 100%;
+    margin: 0 auto
+}
+
+.skilled {
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin: 0 40px;
+    margin-top: 80px;
+
+}
+
+.skilled h2 {
+    color: white;
+    margin-top: 30px;
+}
+
+.skilled i {
+    font-size: 150px;
+
+}
+
+.skilled p {
+    margin-top: 30px;
+    line-height: 20px;
+    color: rgb(241, 241, 241);
+    margin-bottom: 30px;
+}
+
+.link {
+    width: 200px;
+    margin: 50px auto;
+    overflow: hidden;
+    text-align: center;
+    padding:8px 15px;
+    background:lightgreen;
+    border-radius: 8px;
+}
+/* my work section end here  */
+/* portfolio start here  */
+.protfolio {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    /* margin-top: 500px; */
+}
+
+.protfolio h1 {
+    margin-top: 30px;
+    margin: 30px 0px 30px 0px
+}
+.protfolio p {
+    margin-bottom: 30px;
+}
+.logos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgs img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px
+}
+
+.links{
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px 15px;
+    background: yellow;
+    width: 120px;
+    margin: 40px auto;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+.links a {
+    color:black;
+    font-weight: bold;
+}
+
+/* portfolio end here  */
+/* contact start here  */
+.contect{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.contect h2{
+    margin:30px 0;
+    color:white;
+    font-family: 'AR One Sans', sans-serif;
+}
+.contect p{
+    line-height: 20px;
+    color:whitesmoke
+}
+.contect-page{
+    width:90%;
+    margin:100px auto;
+}
+.form{
+    width:40%;
+    float: left;
+    margin:50px 0px 0px 30px;
+}
+.form input{
+    padding:10px;
+    width:400px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background:transparent;
+    background:  gray;
+    outline: none;
+    color:white;
+    text-emphasis-color: white;
+}
+.mass{
+    padding:500px;
+}
+.submit{
+    width:50px;
+}
+::placeholder{
+    color:whitesmoke;
+    font-weight: bold;
+}
+iframe{
+    width:400px;
+    height:280px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+/* contact end here  */
+
+/* footer start here  */
+.footer{
+    width:80%;
+    margin:50px auto;
+}
+.footer-icon{
+    width:35%;
+    float: left;
+    color:white;
+    text-align: center;
+}
+.footer-icon i{
+font-size: 50px;
+margin-bottom: 30px;
+color:gray;
+}
+.footers{
+    color:white;
+    text-align: center;
+}
+.footers i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color:gray
+}
+.lower-foter{
+    text-align: center;
+    color:white
+}
+.lower-foter span{
+    color:#E50072;
+    
+}
+/* footer end here  */
+@media  (max-width: 992px){
+    .loading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:20px;
+        position: none;
+        margin-left: -200px;
+
+    }
+    .profile{
+        text-align: center;
+        display: block
+    }
+    .bio h1{
+        margin-left: -80px;
+    }
+    }
+    @media  (max-width:576px){
+        
+        .profile{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            flex-direction: column;
+        }
+        .profile-img{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            }
+    }
